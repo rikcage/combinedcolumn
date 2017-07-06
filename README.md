@@ -1,7 +1,11 @@
 # combinedcolumn
 Сombined DataColumn
 
+Combining several columnы into one with using filters and sorting
+
 composer require rikcage/yii2-combinedcolumn "*"
+
+for use add in GridView columns
 
 <?php Pjax::begin(); ?>    <?= GridView::widget([
         'dataProvider' => $dataProvider,
@@ -12,7 +16,7 @@ composer require rikcage/yii2-combinedcolumn "*"
             item_id,
             item_name,
             [
-				'class' => 'RikCage\combinedcolumn\CombinedDataColumn',
+				'class' => 'rikcage\combinedcolumn\CombinedDataColumn',
 				'labelTemplate' => '{1}<br>{0}',
 				'valueTemplate' => '{1} {0}',
 				'filterTemplate' => '<div class="row"><div class="col-md-5">{1}</div><div class="col-md-6">{0}</div></div>',
