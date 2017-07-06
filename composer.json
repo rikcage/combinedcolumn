@@ -1,5 +1,5 @@
 {
-    "name": "rikcage/yii2-CombinedColumn",
+    "name": "rikcage/yii2-combined-column",
     "description": "Combined Column in grid YII2",
     "keywords": ["yii2", "CombinedColumn", "Combined", "Column", "grid"],
     "type": "yii2-extension",
