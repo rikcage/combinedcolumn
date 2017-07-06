@@ -1,0 +1,25 @@
+{
+    "name": "rikcage/yii2-CombinedColumn",
+    "description": "Combined Column in grid YII2",
+    "keywords": ["yii2", "CombinedColumn", "Combined", "Column", "grid"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rik Cage",
+            "email": "rikcage@gmail.com",
+            "homepage": "https://github.com/rikcage/combinedcolumn"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "support": {
+        "issues": "https://github.com/rikcage/combinedcolumn/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "rikcage\\combinedcolumn\\": ""
+        }
+    }
+}
